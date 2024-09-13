@@ -5,6 +5,7 @@ const InputField = ({ label, type = "text", value, onChange, placeholder }) => {
     <div className="mb-6">
       <label className="block text-sm font-medium text-gray-700">{label}</label>
       <input
+      required
         type={type}
         value={value}
         onChange={onChange}

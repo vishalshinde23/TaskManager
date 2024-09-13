@@ -46,7 +46,7 @@ const AddTask = ({ showForm, setShowForm, onAddTask, taskToEdit, onUpdateTask })
       </div>
 
       {showForm && (
-        <div className="fixed text-teal-900  inset-0 flex items-center justify-center z-20">
+        <div className="fixed text-white  inset-0 flex items-center justify-center z-20">
           <div className="w-full max-w-lg   p-8 rounded-lg shadow-lg">
             <h2 className="text-2xl text-teal-900  font-bold mb-6">{taskToEdit ? 'Edit Task' : 'Add New Task'}</h2>
             <form onSubmit={handleSaveTask}>
